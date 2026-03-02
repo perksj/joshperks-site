@@ -4,7 +4,7 @@ import { PROJECTS } from "@/lib/projects";
 
 export default function Projects() {
   return (
-    <main className="max-w-3xl">
+    <main className="max-w-3xl mx-auto px-6 sm:px-8 py-14 sm:py-18">
       <h1 className="text-4xl font-serif mb-12">Projects</h1>
 
       <div className="space-y-10">

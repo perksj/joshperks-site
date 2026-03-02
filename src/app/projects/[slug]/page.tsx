@@ -33,7 +33,7 @@ export default function ProjectPage({
   if (!project) notFound();
 
   return (
-    <main className="max-w-3xl">
+    <main className="max-w-3xl mx-auto px-6 sm:px-8 py-14 sm:py-18">
       <div className="mb-10">
         <Link href="/projects" className="text-sm underline">
           ← Back to Projects
